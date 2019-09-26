@@ -13,8 +13,7 @@ public class Ejercicio01 {
     int Numero2;
     Numero2 = Integer.parseInt( linea );
 
-    int total;
-    total = Numero1 * Numero2;
+    int total = Numero1 * Numero2;
 
     System.out.println("El primer número introducido es: " + Numero1);
     System.out.println("El segundo es: " + Numero2);
