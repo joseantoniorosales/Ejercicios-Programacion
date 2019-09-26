@@ -1,2 +1,5 @@
 # Short-Exercises
-Here will be upload all the exercises that can be done quick and without much effort
+
+Aqui estarán los ejercicios simples que no requieren mucho tiempo y esfuerzo debido a su simplicidad realizados en 1º de DAM
+
+
