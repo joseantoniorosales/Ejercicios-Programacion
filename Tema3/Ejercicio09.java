@@ -14,7 +14,7 @@ public class Ejercicio09 {
     altura = Integer.parseInt( linea );
 
     double π = 3.14;
-    double area = (1 / 3) * π * (radio * radio) * altura;
+    double area = (π * (radio * radio) * altura) / 3;
 
     System.out.println("El radio vale: " + radio);
     System.out.println("La altura vale: " + altura);
