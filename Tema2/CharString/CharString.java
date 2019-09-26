@@ -9,6 +9,6 @@ public class CharString {
   char letra2 = 'G';
   
   
-  System.out.println("Yo soy " + sentencia + "" + letra1 + letra2);
+  System.out.println("Yo soy " + sentencia + " " + letra1 + letra2);
   }
 }
