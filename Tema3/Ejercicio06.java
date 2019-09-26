@@ -13,7 +13,7 @@ public class Ejercicio06 {
     int Altura;
     Altura = Integer.parseInt( linea );
 
-    double Area = Base * Altura / 2;
+    double Area = (Base * Altura) / 2;
 
     System.out.println("La base del triangulo es: " + Base);
     System.out.println("La altura del triangulo es: " + Altura);
