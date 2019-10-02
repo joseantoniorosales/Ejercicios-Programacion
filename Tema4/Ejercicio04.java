@@ -12,6 +12,6 @@ public class Ejercicio04 {
     } else {
       pagaSemanal = (16 * horasSemanales) + (40 * 12);
     }
-    System.out.println("El sueldo que le corresponde es de " + pagaSemanal + " euros.");
+    System.out.println("El sueldo que debería recibir es de: " + pagaSemanal + " euros.");
   }
 }
