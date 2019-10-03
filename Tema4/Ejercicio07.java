@@ -17,15 +17,7 @@ public class Ejercicio07 {
 
     System.out.printf("La media total es: " + media);
     
-    if(media < 5){
-      System.out.printf("Suspenso");
-      } else if (media == 5){
-        System.out.printf("Suficiente");
-        }else if(media == 6){
-          System.out.printf("Bien");
-          }else if(media > 6 && media < 8){
-            System.out.printf("Notable");
-            }
+    
         
   }
   
