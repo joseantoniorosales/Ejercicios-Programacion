@@ -4,7 +4,7 @@ public class Ejercicio19 {
     
     int numero, digitos = 0;
     
-    System.out.println("Este programa mostrará cuantas cifras tiene un número (tanto positivo como negativo y como máximo de 5 dígitos)");
+    System.out.println("Este programa mostrará cuantas cifras tiene un número (tanto positivo como negativo con un máximo de 5 dígitos)");
     System.out.print("Introduzca un número entero: ");
     numero = Integer.parseInt(System.console().readLine());
     
