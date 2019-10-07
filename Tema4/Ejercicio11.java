@@ -19,6 +19,6 @@ public class Ejercicio11 {
     
     
     
-    System.out.println("Desde las " + hora + ":" + minuto + " " + "hasta media noche hay " + segundosHoraEstablecida + " " + "segundos" );
+    System.out.println("Desde las " + hora + ":" + minuto + " " + "hasta media noche hay " + segundosMedianoche + " " + "segundos" );
   }
 }
