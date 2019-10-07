@@ -100,7 +100,7 @@ public class Ejercicio10 {
         }
         break;
       default:
-   
+        System.out.printf("Los datos introducidos no son válidos");
     }
   System.out.printf("Tu signo en el horóscopo es: " + horoscopo);
   }
