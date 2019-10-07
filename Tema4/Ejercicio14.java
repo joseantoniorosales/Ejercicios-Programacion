@@ -1,7 +1,8 @@
 public class Ejercicio14 {
 
   public static void main(String[] args) {
-        
+    
+    System.out.println("Este programa te dirá si un número es par y es divisible entre 5");
     System.out.print("Introduzca un número entero: ");
     int numero = Integer.parseInt(System.console().readLine());
 
