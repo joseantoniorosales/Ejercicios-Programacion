@@ -7,31 +7,30 @@ public class Ejercicio13v2 {
         
     System.out.println("Este programa ordena tres números introducidos por teclado.");
     System.out.println("Introduce los 3 numeros (recuerda pulsar ENTER tras cada uno):");
-    int a = Integer.parseInt(System.console().readLine());
-    int b = Integer.parseInt(System.console().readLine());
-    int c = Integer.parseInt(System.console().readLine());
+    int numero1 = Integer.parseInt(System.console().readLine());
+    int numero2 = Integer.parseInt(System.console().readLine());
+    int numero3 = Integer.parseInt(System.console().readLine());
 
     
-    if (a > b) {
-      aux = a;
-      a = b;
-      b = aux;
+    if (numero1 > numero2) {
+      aux = numero1;
+      numero1 = numero2;
+      numero2 = aux;
     }
     
    
-    if (b > c) {
-      aux = b;
-      b = c;
-      c = aux;
+    if (numero2 > numero3) {
+      aux = numero2;
+      numero2 = numero3;
+      numero3 = aux;
     }
     
-    // se vuelven a ordenar los dos primeros
-    if (a > b) {
-      aux = a;
-      a = b;
-      b = aux;
+    if (numero1 > numero2) {
+      aux = numero1;
+      numero1 = numero2;
+      numero2 = aux;
     }
         
-    System.out.println("Los números introducidos ordenados de menor a mayor son " + a + ", " + b + " y " + c + "."); 
+    System.out.println("Los números introducidos ordenados de menor a mayor son " + numero1 + ", " + numero2 + ", " + numero3); 
   }
 }
