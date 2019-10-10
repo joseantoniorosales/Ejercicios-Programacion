@@ -1,4 +1,4 @@
-public class Ejercicio12 { 
+public class Ejercicio12v1 { 
   public static void main(String[] args) {
     
     System.out.println("Este programa te mostrará n términos de la sucesión de Fibonacci");
