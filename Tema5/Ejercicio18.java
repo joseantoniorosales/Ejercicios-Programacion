@@ -48,6 +48,7 @@ public class Ejercicio18 {
         //Proceso Principal
         for(int i = numeroInt1; i <= numeroInt2; i +=7 ){
             System.out.println(" ");
+           
             System.out.println(i + " ");
         
         }
