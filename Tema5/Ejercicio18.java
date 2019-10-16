@@ -1,28 +1,59 @@
-public class Ejercicio17 { 
-  public static void main(String[] args) {
-    
-    System.out.println("Este programa te mostrará los 100 numeros siguientes al numero (entero y positivo) introducido");
-    
-    System.out.println("");
-    int numero = 0;
-    
-    do{
-      System.out.printf("Introduce un numero: ");
-      numero = Integer.parseInt(System.console().readLine());
-      
-      if(numero < 0){
-        System.out.printf("No es posible procesar esa informacion");
+package ejercicio18;
+
+import java.util.Scanner;
+
+public class Ejercicio18 {
+
+ 
+    public static void main(String[] args) {
+        //Definición del programa
+        
+        System.out.println("Este programa obtendrá todos los números enteros comprendidos entre 2 numeros introducidos por teclado de 7 en 7");
+        
+        System.out.println(" ");
+        
+        //Declaración de variables
+        
+        Scanner s = new Scanner(System.in);
+        
+        //Introducción de datos
+        
+        System.out.printf("Introduce el primer número: ");
+        int numeroInt1 = Integer.parseInt(s.nextLine());
+        
+        System.out.printf("Introduce el segundo número: ");
+        int numeroInt2 = Integer.parseInt(s.nextLine());
+        
+        //Procesos
+        
+        //Si ambos números son iguales se muestra que no se puede realizar la operación
+        
+        do{
+        if(numeroInt1 == numeroInt2){
+            System.out.println("Los números deben ser diferentes");
+            }
+        
+        
+        }while(numeroInt1 == numeroInt2);
+        
+        
+        //Si el primero es mayor que el segundo, se intercambian
+        
+        if(numeroInt1 > numeroInt2) {
+        int aux = numeroInt1;
+        numeroInt1 = numeroInt2;
+        numeroInt2 = aux;
         }
-      }
-      while(numero < 0);
-      
-    int suma = 0;
+        
+        //Proceso Principal
+        for(int i = numeroInt1; i <= numeroInt2; i +=7 ){
+            System.out.println(" ");
+            System.out.println(i + " ");
+        
+        }
+        
+        
+
+    }
     
-    for(int i = numero; i < numero + 100; i++){
-      suma += i;
-   }
-  
-  System.out.println("Los 100 numeros siguientes a " + numero + " son: " + suma);
-  
-  }
 }
